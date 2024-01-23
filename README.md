@@ -10,7 +10,7 @@
 
 ## Estructura de datos de forma visual
 
-![Estructura de datos](https://i.ibb.co/pJXxrP4/Dise-o-sin-t-tulo-20.png)
+![Estructura de datos](https://i.ibb.co/pJXxrP4/Dise-o-sin-t-tulo-20.png](https://i.ibb.co/NxG2HKN/estructura-de-datos-visual.png)
 
 
 ## Reservas actuales
