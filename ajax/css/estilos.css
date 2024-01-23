@@ -1,0 +1,42 @@
+    
+    .content{
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        border-radius: 10px;
+        padding: 18px;
+        animation: fadeIn 2s;
+      }
+    .contentDos{
+      animation: fadeIn 2s;
+    }
+      @keyframes fadeIn {
+          from {
+              opacity: 0;
+          }
+
+          to {
+              opacity: 1;
+          }
+      }
+      
+      .text-habitaciones h3{
+        font-size: 16px;
+      }
+      .text-habitaciones p{
+        font-size: 15px;
+      }
+      img{
+        border-radius: 10px;
+      }
+      .animacion_surgimiento{
+       animation: animacion_surgimiento 2.5s;
+      }
+
+      @keyframes animacion_surgimiento {
+          from {
+              opacity: 1;
+          }
+
+          to {
+              opacity: 0;
+          }
+      }

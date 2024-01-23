@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #007bff;
+    padding: 15px 0;
+}
+ol {
+            list-style-type: none;
+            
+        }
+
+li {
+   display: flex;
+    align-items: center;
+        }
+#activado{
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+#activadoDos{
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+
+}
+#activadoDos:hover {
+            background-color: #0056b3;
+        }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+    cursor: pointer
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.nav-list a:hover{
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.text-center{
+    text-align: center;
+    color: #007bff;
+}
+.container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+.card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+.container .card-container .alerta_fecha_mal{
+    background-color: #e25858;
+    text-align: center;
+    padding: ;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+}
+.card {
+            width: calc(33.33% - 20px);
+            margin: 10px;
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: 13px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+.card-body {
+            text-align: center;
+        }
+
+.card-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+.card-text {
+            color: #6c757d;
+        }
+.card button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+.card h4{
+    color: #007bff;
+    padding: 3px;
+}        
+.card p{
+    font-size: 15px;
+    
+}
+                
+.container-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+.form-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+.form-container h2 {
+            color: #007bff;
+        }
+
+.form-container label {
+            display: block;
+            margin: 10px 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+.form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+.form-container input[type="date"] {
+            /* Estilo específico para input de tipo fecha */
+            appearance: none;
+            -moz-appearance: textfield;
+            cursor: pointer;
+        }
+
+.form-container input[type="date"]::-webkit-calendar-picker-indicator {
+            /* Estilo específico para el icono de calendario en Chrome */
+            color: transparent;
+        }
+
+.form-container input:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+.form-container button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+.form-container button:hover {
+            background-color: #0056b3;
+        }
+
+
+
+@media (max-width: 768px) {
+            .card {
+                width: calc(50% - 20px);
+            }
+        }
+
+@media (max-width: 576px) {
+            .card {
+                width: 100%;
+            }
+        }
+
+@media (max-width: 768px) {
+    .logo{
+      margin-left: 0;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .nav-list li {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
