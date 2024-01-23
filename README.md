@@ -7,6 +7,9 @@
 ## Estructura de datos
 
 ![Estructura de datos](https://i.ibb.co/MVN3bVG/estructura-de-datos.png)
+
+## Estructura de datos de forma visual
+
 ![Estructura de datos](https://i.ibb.co/pJXxrP4/Dise-o-sin-t-tulo-20.png)
 
 
