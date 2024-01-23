@@ -1,13 +1,8 @@
-
-![Logo](https://i.ibb.co/GcFvJBK/Sistema-de-reservas-1.png)
-
 ## Autor
 
 - [@srfifu](https://www.github.com/srfifu)
+- 
 # Sistema de Reservas 
-
-
-
 
 ## Estructura de datos
 
