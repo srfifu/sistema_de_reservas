@@ -1,7 +1,7 @@
 ## Autor
 
 - [@srfifu](https://www.github.com/srfifu)
-- 
+
 # Sistema de Reservas 
 
 ## Estructura de datos
